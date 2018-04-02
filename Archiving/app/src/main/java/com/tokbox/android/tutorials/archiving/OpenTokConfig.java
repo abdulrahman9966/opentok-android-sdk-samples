@@ -19,7 +19,7 @@ public class OpenTokConfig {
     //
 
 
-    public static final String CHAT_SERVER_URL = null;
+    public static final String CHAT_SERVER_URL = "https://tel-med.herokuapp.com/";
     public static final String SESSION_INFO_ENDPOINT = CHAT_SERVER_URL + "/session";
     public static final String ARCHIVE_START_ENDPOINT = CHAT_SERVER_URL + "/archive/start";
     public static final String ARCHIVE_STOP_ENDPOINT = CHAT_SERVER_URL + "/archive/:archiveId/stop";
